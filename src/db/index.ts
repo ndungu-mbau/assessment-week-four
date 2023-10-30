@@ -1,3 +1,4 @@
-import { connect } from './pool'
+// import { connect } from './pool'
+export * from './dummy'
 
-connect().then(pool => console.log(pool))
+// connect().then(pool => console.log(pool))

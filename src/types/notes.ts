@@ -2,7 +2,7 @@ type Note = {
   id: string | number
   title: string
   content: string
-  createdAt: string | number | Date
+  createdAt: string
 }
 
 type NoteDto = {
